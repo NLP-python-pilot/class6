@@ -160,7 +160,7 @@ The given grammar is {'noun': ['park', 'football', 'home', 'Switzerland'], 'pron
 
 
 ### 8. Reorganise your python script
-Rename the python script you have been working with to `pos_script.py` and organise it with `if __name__ == "__main__"`. It is a good practice to do this with **ALL** of your future python scripts.
+Rename the python script you have been working with to `pos_script.py` and organise it with `if __name__ == "__main__"`. It is a good practice to do this in **ALL** of your future python scripts.
 
 For example, the code below (totally unrelated to this assignment) shows how your script should be reorganised:
 
