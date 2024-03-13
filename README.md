@@ -181,22 +181,6 @@ As you can see all functions and classes go before the `if __name__ == "__main__
 
 Therefore, your functions and classes from Question 1 to Question 7 should go before `if __name__ == "__main__"` and your answers (including printing) should be located after this. 
 
-Example:
-```python
-def convert_lst_dct(pos, items): # obtained from Question 1
-    ______
-    ______
-    ______
-    return new_dct
-
-
-if __name__ == "__main__":
-    #Q1
-    noun = ["park", "football", "home", "Switzerland"]
-    print(convert_lst_dct("noun", noun))
-    
-```
-
 Understanding ``if __name__ == "__main__"`` is extremely important for Object-oriented programming (OOP) and it will be helpful for your final python assignment. If you want a more thorough explanation, please visit this site (subscription is free): https://realpython.com/if-name-main-python/ 
 
 ### 9. Using your class from another script
