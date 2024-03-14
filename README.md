@@ -246,7 +246,10 @@ print(run_multiple_pos)
 
 Output:
 ```python
-[{'i': 'pronoun', 'want': 'verb', 'to': 'preposition', 'stay': 'verb', 'at': 'preposition', 'home': 'noun'}, {'i': 'pronoun', 'want': 'verb', 'to': 'preposition', 'play': 'verb', 'football': 'noun'}, {'i': 'pronoun', 'work': 'verb', 'at': 'preposition', 'home': 'noun'}] # If you look closely, this is a list of dictionaries
+[{'i': 'pronoun', 'want': 'verb', 'to': 'preposition', 'stay': 'verb', 'at': 'preposition', 'home': 'noun'},
+{'i': 'pronoun', 'want': 'verb', 'to': 'preposition', 'play': 'verb', 'football': 'noun'},
+{'i': 'pronoun', 'work': 'verb', 'at': 'preposition', 'home': 'noun'}]
+# If you look closely, this is a list of dictionaries
 ```
 
 
