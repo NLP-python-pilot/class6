@@ -203,14 +203,13 @@ grammar = {"noun":["park", "football", "home", "Switzerland"],
             "verb":["work", "want", "play", "travel", "stay"], 
             "preposition": ["to","at"]}
 
-new_pos_class = pos_tag(sentence, grammar)
+new_pos_class = pos_tag(sentence)
 print(new_pos_class)
 ```
 
 Output:
 ```python
-The original sentence is "I want to stay at home"
-The grammar is {'noun': ['park', 'football', 'home', 'Switzerland'], 'pronoun': ['i', 'me', 'he', 'she'], 'verb': ['work', 'want', 'play', 'travel', 'stay'], 'preposition': ['to', 'at']}
+The original grammar is {'noun': ['park', 'football', 'home', 'Switzerland'], 'pronoun': ['i', 'me', 'he', 'she'], 'verb': ['work', 'want', 'play', 'travel', 'stay'], 'preposition': ['to', 'at']}
 ```
 
 ### 10. Inheritance
